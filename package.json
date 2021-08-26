@@ -6,5 +6,8 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "dev": "lerna exec --scope @rain/pc -- yarn dev"
+  }
 }
