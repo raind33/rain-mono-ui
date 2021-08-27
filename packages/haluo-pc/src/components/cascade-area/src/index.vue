@@ -45,7 +45,7 @@
 </template>
 <script lang="ts">
 export default {
-  name: "HaloCascadeArea",
+  name: "HaluoCascadeArea",
 };
 </script>
 <script setup lang="ts">
