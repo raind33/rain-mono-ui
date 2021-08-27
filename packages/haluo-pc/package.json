@@ -1,0 +1,45 @@
+{
+  "name": "@haluo/pc",
+  "version": "0.0.0",
+  "main": "./dist/haluo-pc.umd.js",
+  "module": "./dist/haluo-pc.es.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build --config vite.config.build.ts",
+    "build:types": "",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@types/node": "^16.7.2",
+    "@types/qs": "^6.9.7",
+    "axios": "^0.21.1",
+    "element-plus": "^1.1.0-beta.6",
+    "qs": "^6.10.1",
+    "sass": "^1.38.1",
+    "vue": "^3.0.5",
+    "vue-router": "4"
+  },
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vue3",
+    "ts",
+    "vite",
+    "haluo"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "package.json",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/node": "^16.7.2",
+    "@vitejs/plugin-vue": "^1.3.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4",
+    "vue-tsc": "^0.2.2"
+  }
+}
