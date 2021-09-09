@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试Area组件 正常渲染 1`] = `
+<div
+  class="content"
+>
+  <el-select
+    placeholder="请选择省市"
+    value-key="provinceCode"
+  >
+    
+    
+  </el-select>
+  <el-select
+    placeholder="请选择城市"
+    value-key="cityCode"
+  >
+    
+    
+  </el-select>
+  <el-select
+    placeholder="请选择区域"
+    value-key="adCode"
+  >
+    
+    
+  </el-select>
+</div>
+`;

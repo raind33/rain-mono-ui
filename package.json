@@ -11,6 +11,7 @@
     "bootstrap": "yarn --frozen-lockfile && yarn lerna bootstrap",
     "dev": "lerna exec --scope @haluo/pc -- yarn dev",
     "build": "lerna exec --scope @haluo/pc -- yarn build",
+    "test": "lerna exec --scope @haluo/pc -- yarn test",
     "clean": "rimraf"
   }
 }

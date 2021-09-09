@@ -10,7 +10,15 @@ const router = createRouter({
     {
       path: '/cascade-area',
       component: () => import('./demos/cascade-area.vue')
-    }
+    },
+    {
+      path: '/pagination',
+      component: () => import('./demos/pagination.vue')
+    },
+    {
+      path: '/sticky',
+      component: () => import('./demos/sticky.vue')
+    },
   ]
 })
 const app = createApp(App)

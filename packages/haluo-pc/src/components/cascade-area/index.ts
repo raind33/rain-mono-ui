@@ -11,4 +11,4 @@ CascadeArea.install = (app: App): void => {
 const _CascadeArea = CascadeArea as SFCWithInstall<typeof CascadeArea>
 
 export default _CascadeArea
-export const ElCascadeArea = _CascadeArea
+export const HaluoCascadeArea = _CascadeArea
